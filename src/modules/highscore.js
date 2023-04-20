@@ -23,7 +23,7 @@ export async function getFirebase(playerPoints) {
         div.append(h2);
     }
 }
-//Sort data function
+//Sort data function which both compares points and sorts data array
 export function sortData(playerPoints) {
     return new Promise(async resolve => {
 
