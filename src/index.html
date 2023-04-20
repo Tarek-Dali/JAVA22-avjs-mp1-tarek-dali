@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="modules/main.js" type="module"></script>
+    <title>RPS</title>
+</head>
+<body>
+    <button id="cheat">+1 cheat</button>
+
+    <form class="namePrompt">
+        <input type="text">
+        <button id="nameButton">Enter</button>
+    </form>
+
+    <h1></h1>
+
+    <div class="divForForm">
+
+        <div class="divMarginAuto">
+            <input type="image" src="media/rock.png" class="images" id="rock">
+            <input type="image" src="media/paper.png" class="images" id="paper">
+            <input type="image" src="media/scissors.png" class="images" id="scissor">
+        </div>
+
+        <div class="divMarginAuto">
+            <img src="media/rock.png" alt="rock" class="images">
+            <img src="media/paper.png" alt="paper" class="images">
+            <img src="media/scissors.png" alt="scissor" class="images">
+        </div>
+    </div>
+
+    
+    <div class="divForH2">
+        <h2 id="h2Points"></h2>
+        <p id="comfort"></p>
+    </div>
+
+    <h1 class="centerText">Enter you name</h1>
+
+    <h2 id="h2LeaderboardSign">Leaderboard</h2>
+    <div class="divLeaderboard" id="scores"></div>
+    
+</body>
+</html>
